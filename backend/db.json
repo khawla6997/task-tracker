@@ -27,8 +27,14 @@
     {
       "text": "Clothes Shopping",
       "day": "May 5th at 5:00pm ",
-      "reminder": true,
+      "reminder": false,
       "id": 5
+    },
+    {
+      "text": "hdfvdv",
+      "day": "vfdwx",
+      "reminder": true,
+      "id": 6
     }
   ]
 }

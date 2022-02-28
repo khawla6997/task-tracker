@@ -1,0 +1,15 @@
+services:
+  front:
+      build: frontend
+      ports:
+        - 4200:4200
+      volumes:
+        - ./frontend:/angular-crash
+        - /angular-crash/node_modules
+
+  backend:
+      build: backend
+      ports:
+        - 5000:5000
+      volumes:
+        - ./backend:/angular-crash
